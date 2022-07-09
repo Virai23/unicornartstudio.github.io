@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>ART GALLERY PORTFOLIO</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gulzar&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/LOGOF.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"oneclick="hideMenu()" ></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="COURSE.html">DOMAINS</a></li>
+                        <li><a href="BLOG.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                     </ul>
+                </div>    
+                <i class="fa fa-bars"oneclick="showMenu()" ></i>
+            </nav>
+            <h1>OUR  COURSES</h1>
+        </section> 
+
+        <!-------course------->
+        <section class="course">
+            <h1>Art styles we offer</h1>
+            <p>Art is either a revolution or plagiarism</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Modernism<br>(Basic/Intermediate/Expert)</h3>
+                    <p> Modern art also known as Abstract Art eschew realism altogether. Whatever the subject in the painting, it may not
+                         be accurately represented at all in the artwork. Objects may be represented by a colour or a shape 
+                         instead, with the interpretation left up to the viewer. The impact of an abstract painting cannot 
+                         be understated, with many using shocking displays of colour and form to dizzy the senses.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Realism<br>(Basic/Intermediate/Expert)</h3>
+                    <p>Realism
+                        Realism is a painting art style that aims to give the viewer a reflection of the real world.
+                         Many of the most famous paintings are painted in this style and for many, paintings made in
+                        this style are what they will think of when they think of ‘art’. It is important, however,
+                        to make the distinction between realism and photorealism – the former concerns itself with
+                         a realistic scene but does not aim to be a true depiction. </p>
+                </div>
+                <div class="course-col">
+                    <h3>Expressionism<br>(Basic/Intermediate/Expert)</h3>
+                    <p>At the other end of the spectrum is expressionism. Expressionism is a style of art that doesn’t
+                     concern itself with realism, images and scenes are often distorted or painted with otherworldly, 
+                     vivid colours that don’t match up with reality. The focus is instead on the artist’s ideas or feelings, 
+                     which are expressed through the medium of art. </p>
+                </div>
+         </section>
+         
+        <section class="facilities">
+            <h1>Types of Paintings<h1>
+                <p>Art is either a revolution or plagiarism.</p>
+
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="images/history.jpg">
+                        <h3>History Painting</h3>
+                        <p>Travelling through the history and portraying the life lessons which are hidden</p> 
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/portrait.jpg">
+                        <h3>Portrait Painting</h3>
+                        <p>Every portrait that is painted with feeling is a portrait of the artist,not of the sitter</p> 
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/landscape.png">
+                        <h3>Landscape Painting</h3>
+                        <p>A good landscape painting is not just a demonstration of competent application of paint.It must
+                             offer a feeling of homage to the subject</p> 
+                    </div>
+                </div>
+        </section>
+         <!-----------------FOOTER--------->
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Welcome to The Art Studio Mumbai! We are a small, independent
+            art studio offering a range of art education programs for all age groups and skill levels.<br> are organization 
+            in india bringing worldclass art forms and artists to the table who will give best of their knowledge to the
+             students.</p>
+             <div class="icons">
+                <i class="fa fa-facebook" ></i>
+                <i class="fa fa-instagram" ></i>
+                <i class="fa fa-twitter" ></i>
+                <i class="fa fa-linkedin" ></i>
+            </div>
+            <p>Made with love in India</p>
+        </section>
+
+         <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+         </script>
+
+
+    </body>
+</html>>
